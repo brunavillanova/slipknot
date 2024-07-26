@@ -1,0 +1,84 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  color: #580808;
+  margin-top: 20px;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+.gallery-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gallery a {
+  display: block; /* Permite que o link englobe a imagem */
+}
+.gallery img {
+  width: 150px; /* Define uma largura fixa */
+  height: 200px; /* Define uma altura fixa */
+  object-fit: cover; /* Garante que a imagem se ajuste dentro do contêiner */
+  border: 2px solid #ccc;
+  border-radius: 50px;
+  transition: transform 0.3s, border-color 0.3s;
+}
+.gallery img:hover {
+  border-color: #444;
+  transform: scale(1.05);
+}
+.name {
+  margin-top: 10px;
+  font-size: 16px;
+  color: white;
+}
+.purchase {
+  position: absolute; /* Posicionamento absoluto */
+  top: 20px; /* Distância do topo */
+  right: 100px; /* Distância da direita */
+  padding: 10px 20px;
+  font-size: 15px;
+  color: white;
+  background-color: #333;
+  border: none;
+  border-radius: 15px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+.purchase i {
+  margin-right: 5px;
+}
+.purchase:hover {
+  background-color: #555;
+}
+.history {
+  margin: 20px auto;
+  padding: 20px;
+  text-align: left;
+  font-size: 18px;
+  color: white;
+  max-width: 800px;
+  background-color: #100707;
+  border: 2px solid #e12121;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  position: relative; /* Posicionamento relativo */
+  bottom: 0;
+  width: 100%;
+  margin-top: 50px; /* Espaço extra acima do rodapé */
+}
