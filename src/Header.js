@@ -28,7 +28,7 @@ const Header = () => {
             <i className="fab fa-tiktok"></i>
           </a>
           <a href="https://slipknotmerch.com/" target="_blank" rel="noreferrer noopener">
-            <img src="public/img/carrinho-de-compras.png" alt="Loja Slipknot" className="store-icon" />
+            <img src="/img/carrinho-de-compras.png" alt="Loja Slipknot" className="store-icon" />
           </a>
         </div>
         <img src="/img/logo.jpg" alt="Slipknot Logo" className="logo" />
