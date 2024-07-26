@@ -1,59 +1,62 @@
 .header {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-  }
-  
-  .header-top {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0 20px;
-  }
-  
-  .social-icons {
-    margin-bottom: 10px;
-  }
-  
-  .social-icons a {
-    color: white;
-    margin: 0 10px;
-    font-size: 20px;
-    transition: color 0.3s;
-  }
-  
-  .social-icons a:hover {
-    color: #ff0000; /* Cor de destaque ao passar o mouse */
-  }
-  
-  .social-icons img.store-icon {
-    height: 20px;
-    margin-left: 10px;
-    transition: transform 0.3s;
-  }
-  
-  .social-icons img.store-icon:hover {
-    transform: scale(1.1); /* Aumenta o tamanho ao passar o mouse */
-  }
-  
-  .logo {
-    height: 150px; /* Ajuste conforme necessário */
-  }
-  
-  .nav-links {
-    margin-top: 10px;
-  }
-  
-  .nav-links a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
-    font-size: 16px;
-    transition: color 0.3s;
-  }
-  
-  .nav-links a:hover {
-    color: #ff0000; /* Cor de destaque ao passar o mouse */
-  }
-  
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.header-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.social-icons {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ff0000; /* Cor de destaque ao passar o mouse */
+}
+
+.social-icons img.store-icon {
+  height: 25px;
+  margin-left: 1px;
+  margin-top: -2px; /* Ajuste conforme necessário */
+  transition: transform 0.3s;
+}
+
+.social-icons img.store-icon:hover {
+  transform: scale(1.1); /* Aumenta o tamanho ao passar o mouse */
+}
+
+.logo {
+  height: 150px; /* Ajuste conforme necessário */
+}
+
+.nav-links {
+  margin-top: 10px;
+}
+
+.nav-links a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ff0000; /* Cor de destaque ao passar o mouse */
+}
